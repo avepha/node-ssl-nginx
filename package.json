@@ -1,0 +1,14 @@
+{
+  "name": "nginx-ssl-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "docker build . -t simple-node-server",
+    "docker:run": "docker run -p 80:80 --rm simple-node-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
